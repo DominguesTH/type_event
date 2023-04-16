@@ -50,4 +50,4 @@ def login(request):
         
         auth.login(request, user)
 
-        return redirect('/evento/novo_evento/')
+        return redirect('/eventos/novo_evento/')
